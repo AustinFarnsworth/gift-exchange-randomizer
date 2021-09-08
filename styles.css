@@ -1,6 +1,10 @@
-body {
-    background-image: url('images/winter-holiday-background-vector-6900672.jpeg');
-}
+html { 
+    background: url('/images/winter-holiday-background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .gift-exchange-container{
     background-color: #ffffff;
