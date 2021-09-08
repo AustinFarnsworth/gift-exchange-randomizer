@@ -64,6 +64,9 @@ randomButton.addEventListener('click', function () {
                 randomNameSection.innerText = name; 
                 randomArray.appendChild(randomNameSection);
             })
+
+        
+
 })
 
 
