@@ -14,7 +14,7 @@ body {
 margin-left: 10%;
 }
 
-.add-button {
+button {
     border-radius: 25%;
     border: none;
     cursor: pointer;
@@ -23,4 +23,14 @@ margin-left: 10%;
 
 button:hover {
     opacity: 50%;
+}
+
+
+.text-input {
+    display: flex;
+    
+}
+
+.text-input > section {
+    margin: 50px;
 }
