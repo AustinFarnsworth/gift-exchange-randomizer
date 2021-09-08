@@ -1,0 +1,23 @@
+{
+  "name": "christmas-gift-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinFarnsworth/gift-exchange-randomizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinFarnsworth/gift-exchange-randomizer/issues"
+  },
+  "homepage": "https://github.com/AustinFarnsworth/gift-exchange-randomizer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
