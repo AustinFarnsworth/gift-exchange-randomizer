@@ -1,0 +1,26 @@
+body {
+    background-image: url('images/winter-holiday-background-vector-6900672.jpeg');
+}
+
+.gift-exchange-container{
+    background-color: #ffffff;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.info {
+margin-left: 10%;
+}
+
+.add-button {
+    border-radius: 25%;
+    border: none;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+button:hover {
+    opacity: 50%;
+}
