@@ -6,6 +6,7 @@ const randomNamesList = document.getElementById('random-names')
 
 let namesBank = []
 let pairs = {}
+let newArray = []
 
 
 
@@ -30,27 +31,13 @@ inputField.value = "";
 
 
 })
-console.log(namesBank);
+
 
 
 // Randomize the namesBank
 
-randomButton.addEventListener('click', function () {
-    // function randomizer (array) {
-    //     let newPosition, 
-    //             temporary; 
-    //          for (var i = array.length - 1; i > 0; i--) {
-    //                 newPosition = Math.floor(Math.random() * (i + 1));
-    //                 temporary = array[i];
-    //                 array[i] = array[newPosition];
-    //                 array[newPosition] = temporary;
-    //             }
-    //         return array; 
-            
-    //         }
-
-    function randomizer () {
-        let newArray = [];
+randomButton.addEventListener('click', function randomizer () {
+        newArray = [];
         for (let i = 0; i < namesBank.length; i++) {
             let randomIndex = -1;
             let attempts = 0;
@@ -66,32 +53,45 @@ randomButton.addEventListener('click', function () {
             newArray.push(namesBank[randomIndex])
         }
 
-        // console.log(namesBank);
-        console.log(newArray);
-        
-    }
-
-
-     
+        displayRandomNames()
     
-    let randomNamesBank = randomizer(namesBank);
+    });
+    
 
-    console.log(randomNamesBank)
 
 
-    // print in html
+// print in html
+function displayRandomNames () {
+    let randomArray = document.getElementById('random-names');
+            newArray.forEach((name) => {
+                let randomNameSection = document.createElement("section");
+                randomNameSection.innerText = name; 
+                randomArray.appendChild(randomNameSection);
+            });
+        }
 
-    // let randomArray = document.getElementById('random-names');
 
-    //         randomNamesBank.forEach((name) => {
-    //             let randomNameSection = document.createElement("section");
-    //             randomNameSection.innerText = name; 
-    //             randomArray.appendChild(randomNameSection);
-    //         });
 
+
+
+
+
+
+
+      // Option 2 for randomizing
+        //    // function randomizer (array) {
+    //     let newPosition, 
+    //             temporary; 
+    //          for (var i = array.length - 1; i > 0; i--) {
+    //                 newPosition = Math.floor(Math.random() * (i + 1));
+    //                 temporary = array[i];
+    //                 array[i] = array[newPosition];
+    //                 array[newPosition] = temporary;
+    //             }
+    //         return array; 
+            
+    //         }
         
-
-});
 
 
 
