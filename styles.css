@@ -1,5 +1,6 @@
 html { 
-    background: url('/images/winter-holiday-background.png') no-repeat center center fixed; 
+    background: url('/images/unfocused-winter-landscape-with-snowflakes_1393-210.jpeg') no-repeat center center fixed; 
+    opacity: 0.9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,16 +8,53 @@ html {
   }
 
 .gift-exchange-container{
-    background-color: #ffffff;
+    background-color: #de2f32;
     height: 500px;
     width: 60%;
     margin: auto;
     border-radius: 10%;
 }
 
-.info {
+/* .info {
 margin-left: 10%;
+} */
+
+
+@font-face {
+    font-family: 'Mountains of Christmas';
+    font-style: normal;
+    src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
+  .info {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #f8e7dc;
+    font-family: 'Mountains of Christmas'; }
+    .info h1 {
+      font-style: normal;
+      font-size: 35px;
+      margin-bottom: 0;
+      white-space: nowrap; }
+    .info h2 {
+      margin: 0;
+      font-size: 20px;
+      text-align: center;
+      white-space: nowrap; }
+      .info h2 a {
+        color: #f7be10;
+        opacity: 0.8; }
+        .info h2 a:hover {
+          opacity: 1; }
+
+input {
+    border-radius: 10%;
 }
+  
 
 button {
     border-radius: 25%;
@@ -39,13 +77,31 @@ button:hover {
     margin: 50px;
 }
 
-/* .add-button {
-    background-color: #CC231E;
+.add-button {
+    background-color: #34a65f;
+    
 }
 
 .random-button {
     background-color: #34A65F;
-} */
+}
+
+
+/* ~~~~~~~~~~~~~~~ MOBILE FRIENDLY ~~~~~~~~~~~~~~~ */
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  @-ms-viewport {
+    width: device-width ;
+  }
+
+  @media (min-width: 900px) {
+      
+  }
+
+
 
 
 
