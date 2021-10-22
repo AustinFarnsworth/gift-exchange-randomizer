@@ -1,8 +1,9 @@
 html {
-  background: url("/images/unfocused-winter-landscape-with-snowflakes_1393-210.jpeg")
-    no-repeat center center fixed;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #edf2f4;
 
+  /* background: url("/images/unfocused-winter-landscape-with-snowflakes_1393-210.jpeg") */
+  /* no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
